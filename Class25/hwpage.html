@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="csspage.css">
+   <script src="Lands.js">
+   </script>
+</head>
+<body onload="document.form1.text1.focus()">
+    <header>
+        <div id="logo">
+            <img src="Arizona-Empower-Academy-School-Logo-Design.jpg" height="100px"width="100px">
+        </div>
+        <div id="pages">
+            <li id="pli">
+                <a href="#" id="ali">Sign Up</a>
+            </li>
+            <li id="pli">
+                <a href="hwpage2.html" id="ali">Login</a>
+            </li>
+            <li id="pli">
+                <a href="hwpage3.html" id="ali">Students Details</a>
+            </li>
+        </div>
+    </header>
+    <main id="main1">
+        <div>
+            <h2 id="login">Sign Up</h2>
+            <form name="form1" action="#">
+            <label>E-mail</label><br>
+            <input type="text" placeholder="Enter e-mail" id="i1" name="text1"><br><BR>
+                <label>Password</label><br>
+        <input type="text"placeholder="Enter password" id="i2"><br><BR>
+            <label>Confirm Password</label><br>
+            <input type="text"placeholder="Enter password" id="i5"><br><BR>
+        <label>Phone Number</label><BR>
+        <input type="number"placeholder="Enter Phone number" id="i6"><BR><br>
+            <a style="color: rgb(5, 27, 66);" href="#">forgot your password?</a><br><BR>
+            <button id="b1"id="suba" onclick="a(document.form1.text1)">Submit</button>
+        </form>
+        </div>
+   </main>
+</body>
+</html>

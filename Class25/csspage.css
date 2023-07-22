@@ -1,0 +1,67 @@
+#ali{
+    color: rgb(67, 70, 70);
+    text-decoration: none; 
+    margin-top: -20px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+#logo,#pages{
+    display: inline-block;
+}
+#pli{
+    margin-left: 100px;
+list-style: none;
+display:inline;
+    }
+    #pages{
+        margin-left: 350px;
+        display: inline;
+        position: absolute;
+    }
+#b1{
+font-size: 17px;
+border-radius: 40px;
+background-color: red;
+height:40px ;
+width: 87px;
+}
+#p1{
+    text-align: center;
+    color: red;
+}
+body{
+    background-color: rgb(226, 128, 176);
+}
+#blackd1{
+    background-color: black;
+    height: 400px;
+    width: 250px;
+    margin-top: 70px;
+    margin-left: 45%;
+    color: rgb(250, 234, 234);
+    border-radius: 40px;
+   padding-left: 40px;
+  position:absolute;
+  margin-bottom:100px;
+  animation-name: slidein;
+        animation-duration: 3.5s;
+        animation-iteration-count:1;
+       }
+    @keyframes slidein{
+from{
+    margin-left: 100%;
+}
+to{
+    margin-left: 45%;
+}
+    }
+#p2h2{
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+}
+#suba{
+    color: whitesmoke;
+    text-decoration: none;
+}

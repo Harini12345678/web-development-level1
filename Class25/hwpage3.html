@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"href="csspage.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="Arizona-Empower-Academy-School-Logo-Design.jpg" height="100px"width="100px">
+        </div>
+        <div id="pages">
+            <li id="pli">
+                <a href="hwpage.html" id="ali">Sign Up</a>
+            </li>
+            <li id="pli">
+                <a href="hwpage2.html" id="ali">Login</a>
+            </li>
+            <li id="pli">
+                <a href="#" id="ali">Students Details</a>
+            </li>
+        </div>
+    </header>  
+    <main id="main2">
+        <div id="blackd1">
+        <h2 id="p2h2">
+        Students Details
+        </h2>
+        <form>
+            <label>Name</label><br>
+            <input type="text" placeholder="Enter name"><BR><BR>
+                <label>Class and Section</label><br>
+            <input type="text" placeholder="Enter class and section"><BR><BR>
+                <label>Date of  borrowing</label><br>
+            <input type="text" placeholder="Enter date"><BR><BR>
+                <label>Date of returning</label><br>
+            <input type="text" placeholder="Enter date"><BR><BR>
+                <button id="b1" id="suba" onclick="submitpopup()">Submit</button>
+        </form>
+        </div>
+        </main>
+        <script>
+            function submitpopup()
+            {
+                alert("Are you sure you want to submit your details??")
+            alert("Your details have been submitted.")
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <script>
+        //objects
+        // First method is by directly creating an object
+        //second method is by creating a constructer function
+        emb={id:12 ,name:"hawini ", salary:12345678 ,clothes:"Shirt and jean "}
+       // document.write(emb.id,emb.name,emb.salary,emb.clothes)
+       function ob(id,salary,name)
+       {
+        this.id=id
+        this.salary=salary
+        this.name=name
+       }
+       a=new ob(1,2000000000,"qwerty")
+       document.write(a.id,a.salary,a.name)
+    </script>
+</body>
+</html>

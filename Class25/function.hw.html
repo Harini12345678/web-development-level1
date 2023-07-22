@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+    var num=13;
+    checkprime();
+    function checkprime(){
+        var temp = 0;
+        for(var i=2;i<num;i++){
+           if(num%i == 0){
+                temp++;
+           }           
+        }
+        if(temp>0)
+        {
+            document.write(num+" is not a prime number." +"<br>")
+        }
+        else{
+        document.write(num+" is a prime number")}
+    }
+</script>    
+</body>
+</html>

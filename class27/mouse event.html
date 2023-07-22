@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <button id="b">
+        Submit
+    </button>
+    <p id="p"></p>
+    <script>
+//on mouse over is like a hover effect
+function M()
+{
+    alert("hello.")
+}
+//The second method is to use the events by using add event listener where event is attached directly to the function
+document.getElementById("b").addEventListener("click",fun)
+function fun(){
+document.getElementById("p").innerHTML="Harini,bla"
+}
+
+    </script>
+   <!---- <button onmouseover="M()"
+        Submit
+    </button>-->
+
+</body>
+
+</html>

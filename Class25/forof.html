@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+  <script>
+    //Forof_It is used only in the arrays when we lot of data inside that and like 100.Tonget this data quikly 
+//we use forof.coz if we don't we use  forof then the second way is to get the data by position which will take 
+//a lot of time
+//array helps the variable large amount of data.It is written in []
+var arr=["dffr",6283,273,37738,73839,7682,2415]
+//first method using positions
+document.write(arr[0])
+//using forof
+var arr1=""
+for(let i of arr)
+{
+    arr1+=i}
+    document.write(arr1)
+    //for in:It is used to talke data from Json or dictionnationary
+    //Json or dictionarystores values like arrays but along with that it gives information about those values too.It uses {}
+    var x={name:"harini",cake:1234567,icecream:123456789,number:0987654321}
+    var q=""
+    for(let r in x)
+    {
+        q+=x[r]+" "
+    }
+    document.write(q)
+    //If you try to get data without for in and for (may be by using variable name directly or array name or dict 
+    //loops you get data one after the other that we can use it without any problem
+    //While loop is a combination where you can repeat your code for some number of times in some situations and in
+    // some you can repeat for some conditions. Basically it does the work for for loop as well and repeatig for 
+    //some condition as well
+    //four things you need to do for while loop is the same as the forloop.
+    var a=0
+    while (a<=8)//condition
+    {
+        document.write(a)
+        a++
+    }
+    //Create a page for library management system, where yu create login page, sign up page, a page to enter stds details for library card, a page to enter stds details with issue and returninformation
+</script>  
+</body>
+</html> 

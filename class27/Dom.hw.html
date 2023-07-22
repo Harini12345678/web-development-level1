@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #d4,#d5{
+            margin-left: 400px;
+            margin-top:-100;
+        }
+        #d1,#d2,#d3{
+            margin-left: 80px;
+            display: block;
+        }
+        #bd1,#bd2{
+            display: inline-block;
+        }
+body{
+    background-color: rgb(253, 57, 123);
+}
+button{
+    background-color: purple;
+    color: whitesmoke;
+    height: 50px;
+    width: 70px;
+    size: 20px;
+    border-radius: 80px;
+    margin-left: 80px;
+}
+    </style>
+</head>
+
+<body>
+    
+    <script src="Dom.js">
+       
+    </script>
+    
+        <div id="bd1"><div id="d1">
+            <h2>Q1</h2>
+            <p>What is the largest planet?</p><br><BR>
+          <label>Jupiter</label><input type="radio" id="Planet12" value = "Jupiter"/>
+            <label>Saturn</label><input type="radio" id="Planet13" />
+            <label>Mercury</label><input type="radio" id="Planet14" />
+            <label>Neptune</label><input type="radio" id="Planet15" />
+        </div> 
+        <div id="d2">
+        <h2>Q2</h2>
+        <p>What is the planet with a ring?</p><br><BR>
+            <label>Jupiter</label><input type="radio" id="Planet22" value = "Jupiter"/>
+            <label>Saturn</label><input type="radio" id="Planet24" />
+            <label>Mercury</label><input type="radio" id="Planet34" />
+            <label>Neptune</label><input type="radio" id="Planet35" />
+    </div>
+    <div id="d3">
+        <h2>Q3</h2>
+        <p>What is the planet closest to the sun?</p><br><BR>
+        <label>Jupiter</label><input type="radio" name="Planet2" />
+        <label>Saturn</label><input type="checkbox" name="Planet2" />
+        <label>Mercury</label><input type="checkbox" name="Planet2" />
+        <label>Neptune</label><input type="checkbox" name="Planet2" />
+    </div></div>
+   <div id="bd2"> <div id="d4">
+        <h2>Q4</h2>
+        <p>What is the smallest planet?</p><br><BR>
+        <label>Jupiter</label><input type="checkbox" name="Planet3" />
+        <label>Saturn</label><input type="checkbox" name="Planet3" />
+        <label>Mercury</label><input type="checkbox" name="Planet3" />
+        <label>Neptune</label><input type="checkbox" name="Planet3" />
+    </div>
+    <div id="d5">
+        <h2>Q5</h2>
+        <p>What is the furthest planet to the sun?</p><br><BR>
+        <label>Jupiter</label><input type="checkbox" name="Planet4" />
+        <label>Saturn</label><input type="checkbox" name="Planet4" />
+        <label>Mercury</label><input type="checkbox" name="Planet4" />
+        <label>Neptune</label><input type="checkbox" name="Planet4" />
+    </div></div><BR><BR>
+        
+    <button  onclick="check1()">
+        Submit
+    </button> 
+</body>
+
+</html>

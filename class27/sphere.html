@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <p>
+        Input radius value and calculate the volume of a asphere
+    </p>
+    <form>
+    <label>Radius</label>
+    <input type="text" id="i1"/><BR><BR>
+    <label>Volume</label>
+    <input type="text" id="i2"/><BR><BR>
+    </form>
+<script>
+function calc(){
+    var r=document.getElementById("i1").value;    
+    var pi = 3.14;
+    var volume = (4/3) * pi * r * r * r;
+    document.getElementById("i2").value= volume;    
+}
+</script>
+<button onclick="calc();">Calculate</button>
+</body>
+</html>
